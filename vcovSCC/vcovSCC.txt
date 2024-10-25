@@ -5,7 +5,7 @@
 install.packages("plm")
 library("plm")
 library("lmtest")
-vcovSCC = read.csv("https://raw.githubusercontent.com/timbulwidodostp/vcovSCC/main/spml/vcovSCC.csv",sep = ";")
+vcovSCC = read.csv("https://raw.githubusercontent.com/timbulwidodostp/vcovSCC/main/vcovSCC/vcovSCC.csv",sep = ";")
 # Estimation Regression with Driscoll-Kraay robust standard errors for panels with cross-sectional dependence Use vcovSCC (plm) With R Software
 # Pooled OLS estimation (Model Common Effect)
 Common = plm (invest ~ mvalue + kstock, data = vcovSCC, effect = "twoways",model = "pooling")
