@@ -1,6 +1,8 @@
 # vcovSCC
 Regression with Driscoll-Kraay robust standard errors for panels with cross-sectional dependence Use vcovSCC (plm) With R Software
 
+https://www.youtube.com/watch?v=beRTX5RJokg
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
